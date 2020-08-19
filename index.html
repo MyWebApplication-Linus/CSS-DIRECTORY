@@ -20,6 +20,9 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -36,7 +39,7 @@
 
   <div class="middle-container">
     <div class="profile">
-      <img src="Images/circle-cropped.png" alt="myProfilePic">
+      <img class="profilepic"  src="Images/circle-cropped.png" alt="myProfilePic">
       <h2>Hello.</h2>
       <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
     </div>
@@ -63,7 +66,10 @@
       <h2>Get In Touch</h2>
       <h3>Lorem ipsum dolor sit amet, non elit.</h3>
       <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn" href="mailto:linusokoth2023@u.northwestern.edu">CONTACT ME</a>
+      <button class="mdc-button mdc-button--outlined">
+        <div class="mdc-button__ripple"></div>
+        <a class="mdc-button__label" class="link-a"href="mailto:linusokoth2023@u.northwestern.edu">CONTACT ME</a>
+      </button>
     </div>
   </div>
 
