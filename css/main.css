@@ -159,6 +159,10 @@ hr {
 .link-a{
   text-decoration: none;
 }
+a:hover{
+  color: #EAF6F6;
+}
+
 .bottom-container{
   background-color: #66BFBF;
   padding-top: 50px;
